@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durable Cargo Container</title>
+  <link rel="stylesheet" href="css3/main2.css">
+</head>
+<body>
+
+
+  <main>
+    <section class="product-details">
+      <img src="img3/3.jpg" alt="Cargo Container Image">
+      <div class="info">
+        <h2>wide leg jeans blue </h2>
+        <p class="price">Starting at $40.00</p>
+        <p class="description">Securely transport your valuable cargo with our premium steel cargo container. Built with durability in mind, this container features weather-resistant construction and robust locking mechanisms. Perfect for shipping overseas or storing equipment on-site.</p>
+        <ul class="features">
+          <li>High-strength steel construction</li>
+          <li>Watertight and dustproof design</li>
+          <li>Double-door access for easy loading and unloading</li>
+          <li>Stackable for space-saving storage</li>
+          <li>Available in various sizes to meet your needs</li>
+        </ul>
+        <p class="ui"> sizes </p>
+        <input id="sk" type="radio" value="small" name="s">
+        <label for="sk"> small</label>
+        <input id="sr" type="radio" value="medium" name="s">
+          <label for="sr"> medium</label>
+        <input class="bb" id="ss" type="radio" value="large" name="s">
+          <label class="bb" for="ss"> large</label>
+        <input class="jj" id="sj" type="radio" value="x-large" name="s">
+        <label class="jj" for="sj"> x-large</label>
+        <button id="btn" class="cart">Add to cart </button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function showNotification(message) {
+    var notification = document.createElement('div');
+    notification.className = 'notification';
+    notification.textContent = message;
+    
+    document.body.appendChild(notification);
+    
+    setTimeout(function() {
+      document.body.removeChild(notification);
+    }, 6000);
+  }
+
+  function addToCart() {
+    showNotification('Added to cart Successfully');
+  }
+
+  document.getElementById('btn').addEventListener('click', addToCart);
+
+   </script>
+
+
+
+</body>
+</html>

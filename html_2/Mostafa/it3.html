@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head> 
+        <meta charset="UTF-8">
+        <title>frontend page</title>
+        <meta name="author" content="mostafa">
+        <meta name="description" content="learning front end">
+        <link rel="icon" href="html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="it.css" type="text/css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+       <div class="vater">
+        <div class="einz"><img src="item1.webp" alt="white shirt photo" loading="lazy" width="400px" height="600px"></div>
+        <div class="zwei"><img src="whiteshirt.webp" alt="white shirt photo" loading="lazy" width="400px" height="600px"></div>
+        <div class="drei"><h2 class="it3content">Boy Regular Fit Crew Neck Short Sleeve T-Shirt</h2><h4>New Arrival</h4><h2 class="it3price">160 EGP</h2><hr class="it3line1"><br><br><br><h2 class="it3color">Color:</h2>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <h2 class="it3size">Size:</h2>
+        <br>
+        <div class="it3button"><p class="letterl">S</p></div>
+        <div class="it3button2"><p class="letterl">M</p></div>
+        <div class="it3button3"><p class="letterl">L</p></div>
+        <hr class="it3line2">
+        <h2 class="it3desc">Description</h2>
+        <p class="it3desc2">Style TB0A5MPXCM9</p>
+        <p class="it3desc3">Our soft, yet durable short-sleeve, midweight cotton tee is right at home from 9-to-5 and beyond. Your coworkers will realize you mean business with its draft-style "blueprint" chest graphic featuring the Timberland PRO logo and the work motto: "Always do. Never done."</p>
+        <hr class="it3line3">
+        <h2 class="productdetails">Product Details</h2>
+        <ul class="ulist">
+            <li>Midweight 100% cotton</li>
+            <li>Imported</li>
+        </ul>
+        <ul class="ulist2">
+            <li>Rib collar maintains its shape and won't stretch out</li>
+            <li>Weight: 190 g/m2</li>
+        </ul>
+        <hr class="it3line4">
+        <input type="button" class="addtocart" value="ADD TO CART" onclick="window.location.href = '/Html/cart.html'">
+        
+    </div>
+       </div>
+       <script>
+    
+        const circle1 = document.querySelector('.circle1');
+        const circle2 = document.querySelector('.circle2');
+        const circle3 = document.querySelector('.circle3');
+        const circle4 = document.querySelector('.circle4');
+
+        let isCircleClicked = false;
+
+        function handleCircleClick(circle) {
+            if (!isCircleClicked) {
+
+                circle.style.transform = 'scale(1.4)';
+                isCircleClicked = true;
+            }
+        }
+
+        circle1.addEventListener('click', () => handleCircleClick(circle1));
+        circle2.addEventListener('click', () => handleCircleClick(circle2));
+        circle3.addEventListener('click', () => handleCircleClick(circle3));
+        circle4.addEventListener('click', () => handleCircleClick(circle4));
+    
+           const button1 = document.querySelector('.it3button');
+            const button2 = document.querySelector('.it3button2');
+            const button3 = document.querySelector('.it3button3');
+            let isButtonClicked = false;
+            function handleButtonClick(button) {
+                if (!isButtonClicked) {
+                    button.style.transform = 'scale(1.4)';
+                    isButtonClicked = true;
+                }
+            }
+            button1.addEventListener('click', () => handleButtonClick(button1));
+            button2.addEventListener('click', () => handleButtonClick(button2));
+            button3.addEventListener('click', () => handleButtonClick(button3));
+    </script>
+    </body>
+</html>

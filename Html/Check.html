@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="../css/Check.css">
+    <script src="check.js"></script>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"> Logo</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#"><i class='bx bx-search-alt-2'></i></a>
+            <a href="../Html/Login.html"><i class='bx bx-user'></i> </a>
+            <a href="ali.html"><i class='bx bx-cart'></i></a>
+        </nav>
+    </header>
+
+
+    <div class="wrapper">
+        <div class="container">
+            <h1>
+                <i class="fas fa-shipping-fast"></i>
+                Shipping Details
+            </h1>
+            <div class="name">
+                <div>
+                    <label for="f-name">First</label>
+                    <input type="text" name="f-name">
+                </div>
+                <div>
+                    <label for="l-name">Last</label>
+                    <input type="text" name="l-name">
+                </div>
+            </div>
+            <div class="street">
+                <label for="name">Street</label>
+                <input type="text" name="address">
+            </div>
+            <div class="address-info">
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" name="city">
+                </div>
+                <div>
+                    <label for="state">State</label>
+                    <input type="text" name="state">
+                </div>
+                <div>
+                    <label for="zip">Zip</label>
+                    <input type="text" name="zip">
+                </div>
+                
+            </div>
+            <div>
+                <label for="cash">Cash On Delivery</label>
+                <input type="radio" name="type" onclick="Cash()">
+                <label for="visa">Debit/Credit</label>
+                <input type="radio" name="type" onclick="Credit()">
+            </div>
+        <div id="credit">
+        </div>
+        <div class="btns">
+            <button onclick="purchase()">Purchase</button>
+            <button class="b2c">
+                <a href="../Html/cart.html">Back To Cart</a></button>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

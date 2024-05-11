@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<link  href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
+<link rel="icon" type="image/x-icon" href="Image/user-solid-24 (1).png">
+
+<body>
+    <div class="out">
+    <form>
+    <h1>Login</h1> 
+    <div class="in">
+        <input type="text" class="user" placeholder="User Name" >
+        <i class='bx bx-user'></i>
+    </div>   
+    <div class="in">
+    <input type="password" class="password" placeholder="Password" id="password">
+    <img src="Image/bx-hide.svg" class="eyeicon" id="eyeicon">
+    </div>
+    <script>
+       let eyeicon=document.getElementById("eyeicon");
+       let password=document.getElementById("password");
+
+       eyeicon.onclick = function(){
+        if(password.type == "password"){
+            password.type = "text";
+            eyeicon.src ="Image/bx-show (1).svg";
+        }else{
+            password.type = "password";
+            eyeicon.src ="Image/bx-hide.svg";
+        }
+       }
+    </script>
+    
+    <div class="fr">
+        <label >
+            <input type="checkbox" class="rem">Remember me
+        </label>
+        <a href="#" class="forget">Forget Password??</a>
+    </div>
+    <div >
+        <button class="button">Login</button>
+    
+    <p class="sign">You don't have an account?? please
+        <a href="signup.html" >Sign Up</a>
+    </p>
+ </div>
+</form>
+</div>
+</body>
+</html>

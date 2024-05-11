@@ -1,0 +1,77 @@
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Sign Up</title> 
+    <link rel="stylesheet" href="../css/Signup.css"> 
+    <link rel="icon" type="image/x-icon" href="../img/user-plus-solid-24.png">
+</head> 
+<body> 
+    <div class="all"> 
+    <div class="general"> 
+        <h1>General Information</h1> 
+        <select name="title" id="title" class="title">Title 
+            <option value="title">Title</option> 
+            <option value="Doctor">Doctor</option> 
+            <option value="House Wife">House Wife</option> 
+            <option value="Employee">Employee</option> 
+            <option value="Student">Student</option> 
+            <option value="Engineer">Engineer</option> 
+            <option value="Pharmacist">Pharmacist</option> 
+            <option value="Worker">Worker</option> 
+            <option value="Accoutant">Accoutant</option> 
+            <option value="Professor">Professor</option> 
+            <option value="Teacher">Teacher</option> 
+            <option value="Dentist">Dentist</option> 
+            <option value="Other">Others</option> 
+        </select> <br> 
+        <input type="text" placeholder="First Name" class="first"> 
+        <input type="text" placeholder="Last Name" class="last"> <br> 
+        <input type="text" placeholder="Position" class="position"> <br> 
+        <select name="city" id="city" aria-placeholder="city" class="company">city 
+            <option value="city">City</option> 
+            <option value="cairo">Cairo</option> 
+            <option value="alex">Alexandria</option> 
+            <option value="hurghada">Hurghada</option> 
+            <option value="sinai">Sinai</option> 
+            <option value="bany sweif">Bany Sweif</option> 
+            <option value="minya">Minya</option> 
+            <option value="assiut">Assiut</option> 
+            <option value="sohag">Sohag</option> 
+            <option value="luxor">Luxor</option> 
+            <option value="aswan">Aswan</option> 
+            <option value="other">Other</option> 
+        </select> <br> 
+        <input type="text" placeholder="Business Arena" class="business"> 
+        <input type="text" placeholder="Employees" class="employees"> 
+    </div> 
+    <div class="contact"> 
+        <h1>Contact Details</h1> 
+        <input type="text" placeholder="Street + Nr" class="street"> <br> 
+        <input type="text" placeholder="Additional Information" class="additional"> <br> 
+        <input type="text" placeholder="Zip Code" class="zip"> 
+        <input type="text" placeholder="Place" class="place"> <br> 
+        <select name="country" id="country" class="country"> 
+            <option value="country">Country</option> 
+            <option value="Egypt">Egypt</option> 
+            <option value="Paris">France</option> 
+            <option value="America">America</option> 
+            <option value="England">England</option> 
+            <option value="Lebanon">Lebanon</option> 
+            <option value="Tunis">Tunisia</option> 
+            <option value="Moracco">Morocco</option> 
+            <option value="Libya">Libya</option> 
+            <option value="Saudi Arabia">Saudi Arabia</option> 
+            <option value="other">Other</option> 
+ 
+        </select> <br> 
+        <input type="text" placeholder="Code+" class="code"> 
+        <input type="tel" id="phone" name="phone" class="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number" required> 
+        <input type="text" placeholder="Your Email" class="your"> <br> 
+        <input type="checkbox"> I do accept the <a href="#">Terms and Conditions</a> of your site <br> 
+        <button class="btn" id="btn" onclick="window.location.href = '../Html/Login.html'">Register Badge</button>
+    </div> 
+</div> 
+</script>
+</body> 
+</html>

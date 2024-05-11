@@ -1,0 +1,279 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="shortcut icon" href="./Image/comments-solid.svg" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="feedback2.css">
+<link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> Logo</a>
+        <nav class="navbar">
+          <a href="/index.html">Home</a>
+          <a href="../Youssef/it project/index.html">Men</a>
+          <a href="../Veronica/index.html">Women</a>
+          <a href="../Mostafa/frontend/it.html">Kids</a>
+          <a href="#"><i class='bx bx-search-alt-2' ></i></a>
+          <a href="/Html/Login.html"><i class='bx bx-user' ></i> </a>
+          <a href="/Html/cart.html"><i class='bx bx-cart' ></i></a>
+        </nav>
+      </header>
+      
+    <div class="for">
+    <div class="section1">
+    <div class="wrapper">
+        <h3>Rating the products</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i class="bx bx-star star1" style="--i: 0;"></i>
+                <i class="bx bx-star star1" style="--i: 1;"></i>
+                <i class="bx bx-star star1" style="--i: 2;"></i>
+                <i class="bx bx-star star1" style="--i: 3;"></i>
+                <i class="bx bx-star star1" style="--i: 4;"></i>
+            </div>
+            <textarea name="opinion"  cols="30" rows="5" placeholder="Your opinion..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <div class="wrapper">
+        <h3>Rating the Costs</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i class="bx bx-star star2" style="--i: 0;"></i>
+                <i class="bx bx-star star2" style="--i: 1;"></i>
+                <i class="bx bx-star star2" style="--i: 2;"></i>
+                <i class="bx bx-star star2" style="--i: 3;"></i>
+                <i class="bx bx-star star2" style="--i: 4;"></i>
+            </div>
+            <textarea name="opinion"  cols="30" rows="5" placeholder="Your opinion..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="section2">
+    <div class="wrapper">
+        <h3>Rating the Delivery</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i class="bx bx-star star3" style="--i: 0;"></i>
+                <i class="bx bx-star star3" style="--i: 1;"></i>
+                <i class="bx bx-star star3" style="--i: 2;"></i>
+                <i class="bx bx-star star3" style="--i: 3;"></i>
+                <i class="bx bx-star star3" style="--i: 4;"></i>
+            </div>
+            <textarea name="opinion"  cols="30" rows="5" placeholder="Your opinion..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <div class="wrapper">
+        <h3>Rating the ease of the site</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i class="bx bx-star star4" style="--i: 0;"></i>
+                <i class="bx bx-star star4" style="--i: 1;"></i>
+                <i class="bx bx-star star4" style="--i: 2;"></i>
+                <i class="bx bx-star star4" style="--i: 3;"></i>
+                <i class="bx bx-star star4" style="--i: 4;"></i>
+            </div>
+            <textarea name="opinion"  cols="30" rows="5" placeholder="Your opinion..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="section3">
+    <div class="wrapper">
+        <h3>Rating the General Experience</h3>
+        <ul class="emojis">
+            <li class="item2"><i class='bx bx-angry'></i></li>
+            <li class="item2"><i class='bx bx-sad'></i></li>
+            <li class="item2"><i class='bx bx-smile'></i></li>
+            <li class="item2"><i class='bx bx-wink-smile'></i></li>
+            <li class="item2"><i class='bx bx-laugh'></i></li>
+        </ul>
+        <textarea name="opinion"  cols="30" rows="5" placeholder="Your opinion..." class="text2"></textarea>
+        <button class="submits">SUBMIT</button>
+    </div>
+    <div class="success-popup">
+        <div class="check-icon"><i class='bx bxs-check-circle'></i></div>
+        <h3 class="thank">Thank You</h3>
+        <p class="your">Your Response has been succesfully sent thanks!</p>
+    </div>
+</div>
+    <script src="feedback2.js"></script>
+</div> 
+    <br><br><br><br><br><br><br><br><br><br>
+    <hr class="hr-o">
+    <div class="container">
+       <div class="head"><h3>Post a comment</h3></div>
+       <div>
+        <span id="comment">0</span>Comments
+       </div>
+       <div class="text"><p>We are happy to hear from you</p></div>
+       <div class="comments"></div>
+       <div class="commentbox">
+        <img src="Image/download.png" alt="">
+        <div class="content">
+            <h4>Comment as:</h4>
+            <input type="text" value="Max" class="user">
+            <div class="commentinput">
+                <input type="text" placeholder="Enter comment..." class="usercomment">
+                <div class="buttons">
+                    <button type="submit" disabled id="publish">Publish</button>
+                    <div class="notify">
+                        <input type="checkbox" class="notifyinput"> <span>Notify me</span>
+                    </div>
+                </div>
+            </div>
+            <p class="policy">This site is protected by the google <a href="">Privacy Police</a> and <a href="">Terms of service</a> apply.</p>
+        </div>
+       </div>
+    </div>
+    
+    <script>
+        "use strict";
+
+        const userId ={
+            name: null,
+            identity: null,
+            image: null,
+            message: null,
+            date: null
+        }
+        const userComment =document.querySelector(".usercomment");
+        const publish0tn =document.querySelector("#publish");
+        const comments =document.querySelector(".comments");
+        const userName =document.querySelector(".user");
+
+        userComment.addEventListener("input",e => {
+            if(!userComment.value){
+                publish0tn.setAttribute("disabled","disabled");
+                publish0tn.classList.remove("abled")
+            }else{
+                publish0tn.removeAttribute("disabled");
+                publish0tn.classList.add("abled")
+            }
+        })
+
+
+        function addPost(){
+            console.log("The button works!")
+            if(!userComment.value) return;
+            userId.name = userName.value;
+            if(userId.name === "Max"){
+                userId.identity = false;
+                userId.image = "Image/download.png";
+            }else{
+                userId.identity = true;
+                userId.image = "Image/download.png"
+            }
+
+            userId.message = userComment.value;
+            userId.date = new Date().toLocaleString();
+            let published =
+            `<div class="parents">
+                <img src="${userId.image}">
+                <div>
+                    <h3>${userId.name}<h3>
+                    <p>${userId.message}</p>
+                    <div class="engagements"><img src="Image/bxs-like.svg"><img src="Image/bxs-share.svg"></div>
+                    <span class="date">${userId.date}</span>
+                </div>
+            </div>`;
+
+            comments.innerHTML += published;
+            userComment.value = "";
+            let commentsNum = document.querySelectorAll(".parents").length;
+            document.getElementById("comment").textContent = commentsNum;
+        }
+
+        publish0tn.addEventListener("click",addPost)
+
+
+    </script>
+    <footer class="footer">
+        <div class="container-footer">
+          <section class="ft-sc">
+            <div class="sc-links">
+              <span>Get connected with us on social networks:</span>
+              <div class="sc-icons">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+          </section>
+          <div class="footer-grid">
+            <div class="footer-logo">
+              <h4>LOGO</h4>
+              <hr>
+              <form id="form-news">
+                <p class="newsletter-txt">SignUp for our newsletter</p>
+                <div class="nw-div">
+                  <input type="email" placeholder="example@gmail.com" id="newsletter" class="me-2">
+                  <button class="btn-newsletter" id="news-subs">Subscribe</button>
+                </div>
+              </form>
+              <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laborum provident doloremque consequuntur id eveniet molestiae in nihil, incidunt asperiores cumque. Culpa provident nemo reiciendis exercitationem explicabo tempore fuga iste.
+              </p>
+          
+            </div>
+            <div class="footer-shop">
+              <h4>SHOP</h4>
+              <hr>
+              <ul>
+                <li><a href="../Youssef/it project/index.html">Men</a></li>
+                <li><a href="../Veronica/index.html">Women</a></li>
+                <li><a href="../Mostafa/frontend/it.html">Kids</a></li>
+              </ul>
+            </div>
+            <div class="footer-useful">
+              <h4>USEFUL LINKS</h4>
+              <hr>
+              <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/Html/Login.html">Login</a></li>
+                <li><a href="/Html/SignUp.html">Sign up</a></li>
+                <li><a href="/Html/aboutus.html">AboutUS</a></li>
+                <li><a href="#">FeedBack</a></li>
+                <li><a href="../Malak/contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-cont">
+              <h4>CONTACT</h4>
+              <hr>
+              <ul>
+                <li><img src="../img/location-dot-solidbr.svg" class="location" width="15px"> Cairo, C 1111, EG</li>
+                <li><img src="../img/envelope-solid.svg" class="location" width="15px"> info@example.com</li>
+                <li><i class='bx bxs-phone'></i> + 00 000 000 00</li>
+                <li><i class='bx bx-printer'></i> + 00 000 000 00</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="owner">
+          © 2024 Copyright: AlyTaha
+    
+        </div>
+      </footer>
+      
+</body>
+</html>

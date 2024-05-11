@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"> Logo</a>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="../html_2/Youssef/it project/index.html">Men</a>
+      <a href="../html_2/Veronica/index.html">Women</a>
+      <a href="../html_2/Mostafa/frontend/it.html">Kids</a>
+      <a href="#"><i class='bx bx-search-alt-2' ></i></a>
+      <a href="../Html/Login.html"><i class='bx bx-user' ></i> </a>
+      <a href="#"><i class='bx bx-cart' ></i></a>
+    </nav>
+  </header>
+  <table class="cart-container">
+    <tr class="cart-item">
+      <td><img src="../img/shoes1.jpeg" alt="item"></td>
+      <td>
+        <h2>Shoes 2</h2>
+        <p>Price: $50</p>
+        <p>Quantity: 1</p>
+        <button class="remove-btn" onclick="removeItem(this)">Remove</button>
+      </td>
+    </tr>
+    <tr class="cart-item">
+      <td><img src="../img/cropped-shot-man-black-blank-600nw-2109640217.webp" alt="item"></td>
+      <td>
+        <h2>Cargo</h2>
+        <p>Price: $40</p>
+        <p>Quantity: 1</p>
+        <button class="remove-btn" onclick="removeItem(this)">Remove</button>
+      </td>
+    </tr>
+    <tr class="cart-item">
+    <tr class="cart-item">
+      <td><img src="../img/cropped-shot-man-black-blank-600nw-2109640217.webp" alt="item"></td>
+      <td>
+        <h2>Cargo</h2>
+        <p>Price: $30</p>
+        <p>Quantity: 1</p>
+        <button class="remove-btn" onclick="removeItem(this)">Remove</button>
+      </td>
+    </tr>
+    <tr class="cart-item">
+    <tr class="cart-item">
+      <td><img src="../img/cropped-shot-man-black-blank-600nw-2109640217.webp" alt="item"></td>
+      <td>
+        <h2>cargo</h2>
+        <p>Price: $100</p>
+        <p>Quantity: 1</p>
+        <button class="remove-btn"onclick="removeItem(this)" >Remove</button>
+      </td>
+    </tr>
+    <tr class="cart-item">
+      <td><img src="../img/shoes2.jpeg" alt="item"></td>
+      <td>
+        <h2>Shoes</h2>
+        <p>Price: $100</p>
+        <p>Quantity: 1</p>
+        <button class="remove-btn" onclick="removeItem(this)">Remove</button>
+      </td>
+    </tr>
+  </table>
+  <div class="total">
+    <h2>Total: $320</h2>
+    <button class="checkout-btn" onclick="window.location.href = './Check.html'">Checkout</button>
+  </div>
+  <script>
+    function removeItem(button) {
+       var row = button.parentNode.parentNode;
+      row.remove();
+       }
+   </script>
+</body>
+</html>

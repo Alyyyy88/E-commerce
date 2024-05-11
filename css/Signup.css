@@ -1,0 +1,236 @@
+body{ 
+    background-color: #bcb8b1; 
+} 
+ 
+.all{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 145vh; 
+    height: 70vh; 
+    margin-left: 200px; 
+    margin-top: 100px; 
+     
+} 
+.general{ 
+    width: 50%; 
+    height: 100%; 
+    background-color:#f4f3ee; 
+    padding-left: 40px; 
+    border: solid; 
+    border-radius: 10px; 
+    border-color: #f4f3ee; 
+    border-top-right-radius: 0 ; 
+    border-bottom-right-radius: 0; 
+} 
+.general h1{ 
+    color: #463f3a; 
+    font-style: italic; 
+} 
+
+
+.general .title{ 
+    width: 90%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+} 
+.general .first{ 
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+} 
+ 
+.general .last{ 
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+} 
+.general .position{ 
+    width: 90%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+} 
+.general .company{ 
+    width: 90%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+} 
+.general .business{ 
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+} 
+.general .employees{ 
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+} 
+.contact{ 
+    width: 50%; 
+    height: 100%; 
+    background-color: #8a817c; 
+    padding-left: 40px; 
+    border: solid; 
+    border-radius: 10px; 
+    border-color:#8a817c ; 
+    border-top-left-radius: 0 ; 
+    border-bottom-left-radius: 0; 
+} 
+.contact h1{ 
+    font-style: italic; 
+} 
+.contact input::placeholder{ 
+    color: #f4f3ee; 
+} 
+.contact .street{ 
+     
+    width: 90%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+ 
+.contact .additional{ 
+     
+    width: 90%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+ 
+.contact .zip{ 
+     
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+ 
+.contact .place{ 
+     
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+ 
+.contact .country{ 
+     
+    width: 90%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+ 
+.contact .code{  
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color:transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+ 
+.contact .phone{ 
+     
+    width: 45%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+.contact .your{ 
+     
+    width: 90%; 
+    height: 35px; 
+    border-top-color: transparent ; 
+    border-left-color: transparent; 
+    border-right-color: transparent ; 
+    margin-bottom: 20px; 
+    background-color: transparent; 
+    border-bottom-color:  #463f3a; 
+} 
+.contact .btn{ 
+     
+    margin-top: 30px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    padding-top: 7px; 
+    padding-bottom: 7px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    border-color: transparent; 
+    font-style:oblique; 
+    background-color: #f4f3ee; 
+     
+}.notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(162, 152, 138);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  animation: fadeOut 3s ease forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}

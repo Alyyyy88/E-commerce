@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<style>
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 50px;
+    margin-top: 40px;
+      line-height: 24px;
+      margin-bottom: 5px;
+      text-align: center;
+      color: #463F3A;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    
+    .description {
+      font-size: 30px;
+      color: rgb(96, 96, 96);
+      width: 600px;
+      line-height: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      border-radius: 6px;
+      color: #8A817C;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-top: 75px;
+    }
+  
+    .shop-link {
+      cursor: pointer;
+    }
+  
+    .shop-link:hover {
+      text-decoration: underline;
+    }
+    .back{
+    
+      background-color: #463F3A;
+      color:#F4F3EE;
+      border:none;
+      border-radius: 5px;
+      padding: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+
+    .back:hover{
+      opacity: 0.8;
+    }
+    .back:active{
+      opacity: 0.6;
+    }
+  body{
+    background-color: #F4F3EE;
+  }
+
+  
+  </style>
+  
+  <p class="title">
+    ORDER CONFIRMATION
+  </p>
+  
+  
+  <p class="description">
+    Hi, thank you for your order!
+    Just a quick update... You've got great taste! We're so glad you chose our store.
+    Your order has been received and is currently being processed by our crew. 
+    We'll let you know when your order is on its way to you so you can really get excited about it.
+   your order will take 3 days to be deliverd,
+    but if their is any shipment problem we will send you a massage for the new updates We will be happy to see you again.
+    If there is anything else we can do, just let us know.    
+  </p>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+const xValues = ["dark blue denim", "basic olive T-shirt", "black puffer jacket"];
+const yValues = [80, 75, 65];
+const barColors = ["brown", "orange","black"];
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "our best sellers"
+    }
+  }
+});
+</script>
+</html>
+  
+  <p class="end">
+    Shop early for the <strong>best selection</strong> of <u>holiday</u> favourites. <span class="span-example">Shop now</span>
+  </p>
+  
+  <button class="back" >CONTINUE SHOPPING</button>
+  <div><p class="'end">feel free to tell us your problems with our website</p></div>
+<div><button class="back">CONTACT US</button></div>
+

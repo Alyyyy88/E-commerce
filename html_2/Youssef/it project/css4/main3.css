@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 204, 204);
+  }
+  
+
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .product-details {
+    width: 700px;
+    background-color:#b1909040;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 20px;
+  }
+  
+  .product-details img {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .info {
+    width: 45%;
+    padding-left: 20px;
+  }
+  
+  h2 {
+    margin: 0 0 10px;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    
+    padding: 0;
+    margin: 0;
+  }
+  
+  .features li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+  }
+  .size{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    top: -8px;
+    left: 2px;
+    gap: 32px;
+    font-size: 16px;
+    
+  }
+ .ui{
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .pp{
+  border-bottom: 4px solid transparent;
+ }
+.pp:hover{
+color: aliceblue;
+border-bottom-color: #3498db;
+}
+.cart{
+  position: relative;
+  right: -181px;
+  top: -3px;
+}
+input{
+  width: 12%;
+}
+.bb{
+  position: relative;
+  top: 25px;
+  right: 204px;
+}
+.jj{
+  position: relative;
+  top: 8px;
+  right: -92px;
+}
